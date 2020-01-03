@@ -1,0 +1,57 @@
+<%- include('header'); %>
+    <div class="ui main text container segment">
+        <div class="ui huge header" style="margin-top: 2.5em;">
+            <%=blog.title%>
+        </div>
+        <div class="ui top attached segment">
+
+            <div class="item">
+                <img class="ui centered rounded image" src="<%=blog.image%>" >
+                <div class="content">
+                    <span><%=blog.created.toDateString()%></span>
+                </div>
+                <div class="description">
+                    <p>
+                        <%=blog.body%>
+                    </p>
+                </div>
+                <a  class="ui inverted yellow button " href="/blogs/<%=blog._id%>/edit">EDIT BLOG</a>
+                <form action="/blogs/<%=blog._id%>?_method=DELETE" method="POST">
+                <button class="ui inverted red button">DELETE BLOG</button>
+                </form>
+                
+                
+            </div>
+        
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <%- include('footer'); %> 
