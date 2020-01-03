@@ -1,1 +1,1 @@
-# BLOG APP WITH EDIT, DELETE, MODIFY FEATURES AND COMES WITH A PORTFOILIO WEBPAGE OF CREATER
+# Blog App with Edit, Delete, Modify features and also comes with a Portfolio Webpage of the Creater.
